@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("assets/congruent_outline.png");
+    font-family: tahoma;
+}
+span{
+    display: block;
+}
+#game{
+  margin:50px 0px;  
+}
+#info{
+    width: 900px;    
+    margin: 0 auto;
+    margin-top: 500px;
+}
+#header{
+    width: 900px;
+    height: auto;
+    text-align: center;
+    font-size: 28pt;
+/*    padding-bottom: 15px;*/
+    background: rgb(180, 208, 245);
+}
+
+#header img{
+  
+    width: 100px;
+}
+#box1, #box2, #box3{
+    width: 300px;
+    float:left;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14pt;
+}
+#box1, #box3{
+    background: rgb(227, 217, 217);
+    color: rgb(82, 79, 79);
+    text-align: center;
+}
+#box2{
+    background: rgb(80, 80, 80);
+    color: rgb(221, 221, 221);    
+    text-align: center;
+}
+#box2 img{
+    width: 200px;
+}
+#box3 img{
+    width: 200px;
+}
+#box3 img:last-child{
+    width: 40px;
+}
+
+
+
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/phaser.js"></script>
+    
+</head>
+<body>
+    <div id="game">
+    <script src="js/game.js"></script>
+    </div>   
+    <div id="info">
+        <div id="header">
+            <span>Справка по игре</span>
+            <img src="assets/dude2.gif">
+        </div>
+        <div id="box1">
+            <span>Управление персонажем осуществляется с помощью клавиш управление:
+                <ul>
+                    <li>клавиша вверх выполняет прыжок;</li>
+                    <li>клавиша влево перемещает влево;</li>
+                    <li>клавиша вправо перемещает вправо.</li>
+                </ul>
+            </span>
+            <img src="assets/clavier.png">
+        </div>
+        <div id="box2">
+            <span>
+                В начале каждого уровня игрок получает 3 жизни и происходит отсчет времени за которое необходимо пройти уровень, так же на уровне имеются различные противники, при столкновании с которыми игрок лишается одной из жизней, при сгорании третьей жизни перед глазами игрока появляется стартовое меню игры.
+            </span>
+            <img src="assets/heart.png">
+            <span>
+                Игрок лишается жизни если:
+                <ul>
+                    <li>кончилось время;</li>
+                    <li>игрок столкнулся с одним из противников;</li>
+                    <li>упал на шипы.</li>
+                </ul>
+            </span>
+        </div>
+        <div id="box3">
+             <span>
+               Для прохождения уровня необходимо попасть в телепорт. 
+            </span>
+            <img src="assets/portal.png">
+            <span>
+                На четных уровнях для открытия телепорта нужно найти бриллиант после которого появлется ранее скрытый телепорт.
+            </span>
+            <img src="assets/diamond.png">
+        </div>
+    </div>  
+</body>
+</html>
